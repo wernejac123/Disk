@@ -33,4 +33,12 @@ USAGE:
 
 NOTE: does not take into consideration the space reserved for ISO9660.
 
-May require extra disk(s) than whats calculated
+May require extra disk(s) than whats calculated.
+
+COMPILE:
+
+	Linux: just run the shell script. It compiles and strips the binary. (requires gfortran)
+
+	FreeDOS: run: C:\DEVEL\WATCOMF\OWSETENV.BAT (set envirnment. requires WATCOMF)
+
+			WFL C:\SRC\F77\DISK\DISK.F (or whatever the path to disk.f is)
